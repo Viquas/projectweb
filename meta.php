@@ -1,7 +1,8 @@
 <?php
 ?>
-<head>
+
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,height=device-height,user-scalable=0,initial-scale=1,maximum-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="XCD HR Online software allows your HR department to manage the day to day task of HR from one central location, the cloud based Software can manage, Records, Emails, Spreadsheet and Contracts"/>
 <meta name="robots" content="noodp"/>
@@ -28,5 +29,3 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
-
-</head>

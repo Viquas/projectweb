@@ -31,7 +31,14 @@ var myNavBar = {
     add : function() {
         if(this.flagAdd) {
             for(var i=0; i < this.elements.length; i++) {
-                document.getElementById(this.elements[i]).className = "globalNav navbar-fixed-top fixed-theme";
+              if(this.elements[i] == 'header'){
+                document.getElementById(this.elements[i]).className = "navbar navbar-fixed-top fixed-theme";
+              }else if(this.elements[i] == 'main'){
+                document.getElementById(this.elements[i]).className = "main-content  main-pad";
+              }else {
+                document.getElementById(this.elements[i]).className += " fixed-theme";
+              }
+
             }
             this.flagAdd = false;
         }
@@ -39,7 +46,14 @@ var myNavBar = {
 
     remove: function() {
         for(var i=0; i < this.elements.length; i++) {
-            document.getElementById(this.elements[i]).className = "globalNav";
+          if(this.elements[i] == 'header'){
+            document.getElementById(this.elements[i]).className = "navbar navbar-collapse";
+          }else if(this.elements[i] == 'main'){
+            document.getElementById(this.elements[i]).className = "main-content";
+          }else {
+            document.getElementById(this.elements[i]).className =
+                document.getElementById(this.elements[i]).className.replace( /(?:^|\s)fixed-theme(?!\S)/g , '' );
+          }
         }
         this.flagAdd = true;
     }
@@ -52,6 +66,9 @@ var myNavBar = {
  */
 myNavBar.init([
     "header",
+    "header-container",
+    "brand",
+    "main"
 ]);
 
 /**
