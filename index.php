@@ -17,15 +17,13 @@
   ?>
 
 <div class="main-content" id='main'>
+
   <header class='globalNav '>
   <div class="container-lg">
     <ul class="navRoot">
 
-
       <li class="navSection logo">
-        <a class="rootLink item-home colorize" href="/"><h1>
-          <svg width="62" height="25"><title>XCD</title>
-            <path d="M5 10.1c0-.6.6-.9 1.4-.9 1.2 0 2.8.4 4 1.1V6.5c-1.3-.5-2.7-.8-4-.8C3.2 5.7 1 7.4 1 10.3c0 4.4 6 3.6 6 5.6 0 .7-.6 1-1.5 1-1.3 0-3-.6-4.3-1.3v3.8c1.5.6 2.9.9 4.3.9 3.3 0 5.5-1.6 5.5-4.5.1-4.8-6-3.9-6-5.7zM29.9 20h4V6h-4v14zM16.3 2.7l-3.9.8v12.6c0 2.4 1.8 4.1 4.1 4.1 1.3 0 2.3-.2 2.8-.5v-3.2c-.5.2-3 .9-3-1.4V9.4h3V6h-3V2.7zm8.4 4.5L24.6 6H21v14h4v-9.5c1-1.2 2.7-1 3.2-.8V6c-.5-.2-2.5-.5-3.5 1.2zm5.2-2.3l4-.8V.8l-4 .8v3.3zM61.1 13c0-4.1-2-7.3-5.8-7.3s-6.1 3.2-6.1 7.3c0 4.8 2.7 7.2 6.6 7.2 1.9 0 3.3-.4 4.4-1.1V16c-1.1.6-2.3.9-3.9.9s-2.9-.6-3.1-2.5H61c.1-.2.1-1 .1-1.4zm-7.9-1.5c0-1.8 1.1-2.5 2.1-2.5s2 .7 2 2.5h-4.1zM42.7 5.7c-1.6 0-2.5.7-3.1 1.3l-.1-1h-3.6v18.5l4-.7v-4.5c.6.4 1.4 1 2.8 1 2.9 0 5.5-2.3 5.5-7.4-.1-4.6-2.7-7.2-5.5-7.2zm-1 11c-.9 0-1.5-.3-1.9-.8V10c.4-.5 1-.8 1.9-.8 1.5 0 2.5 1.6 2.5 3.7 0 2.2-1 3.8-2.5 3.8z"/></svg></h1></a>
+        <img src="assets/images/home/logo.png" class="logo">
       </li>
 
       <li class="navSection primary">
@@ -53,7 +51,10 @@
         </a>
 
         <a class="rootLink item-company hasDropdown colorize" data-dropdown="company">
-          More <i class="fa fa-caret-down"> </i>
+          More
+          <svg version="1.1" x="0px" y="0px" viewBox="0 0 200 75"    xml:space="preserve" fill="white" stroke="white">
+
+            <g><path d="M49.7,70.3c1.9,0,3.9-0.7,5.3-2.2l29.7-29.7c0.6-0.6,0.6-1.6,0-2.2c-0.6-0.6-1.6-0.6-2.2,0L52.9,65.9   c-1.7,1.7-4.5,1.7-6.2,0L17.5,36.7c-0.6-0.6-1.6-0.6-2.2,0c-0.6,0.6-0.6,1.6,0,2.2l29.1,29.1C45.9,69.5,47.8,70.3,49.7,70.3z"/></g></svg>
         </a>
 
 
@@ -64,7 +65,7 @@
           <a
             class="rootLink item-dashboard colorize"
             data-adroll-segment='submit_two'
-            href="https://dashboard.stripe.com/login"
+            href=""
             data-analytics-source="global_nav"
               data-analytics-action="sign_in"
           >
@@ -216,132 +217,6 @@
     <div class="dropdownArrow"></div>
     <div class="dropdownContainer">
 
-      <div class="dropdownSection" data-dropdown="products">
-        <div class="dropdownContent">
-
-          <div class="linkGroup">
-            <ul class="productsGroupPrimary">
-              <li>
-                <a
-                  class="linkContainer item-payments"
-                  href=""
-                  data-analytics-action="payments"
-                  data-analytics-source="nav_dropdown"
-                >
-                  <svg viewbox="0 0 48 48"><path fill="#87BBFD" class="hover-fillLight" d="M24 48C12.11 48 2.244 39.35.338 28H6.5V9H5.27C9.67 3.515 16.423 0 24 0c13.255 0 24 10.745 24 24S37.255 48 24 48z"/><path fill="#555ABF" class="hover-fillDark" d="M25 21v8H.526A24.082 24.082 0 0 1 0 24 23.908 23.908 0 0 1 6.116 8H31.5c.828 0 1.5.67 1.5 1.5V21h-8zm-10.502-8.995a6.497 6.497 0 1 0 0 12.994 6.497 6.497 0 0 0 0-12.996z"/><path fill="#FFF" d="M39.823 39.276a2.44 2.44 0 0 1-1.76.724H16.5a1.5 1.5 0 0 1-1.5-1.5v-18c0-.828.67-1.5 1.5-1.5h27.693a1.51 1.51 0 0 1 1.484 1.256c.21 1.217.323 2.467.323 3.744 0 5.936-2.355 11.32-6.177 15.276zM33.5 23.002a6.497 6.497 0 1 0 0 12.995 6.497 6.497 0 0 0 .002-12.994z"/></svg>
-                  <div class='productLinkContent'>
-                    <h3 class="linkTitle">Payments</h3>
-                    <p class="linkSub">A complete commerce toolkit, built for&nbsp;developers.</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="linkContainer item-subscriptions"
-                  href=""
-                  data-analytics-action="subscriptions"
-                  data-analytics-source="nav_dropdown"
-                >
-                  <svg viewbox="0 0 48 48"><path fill="#74E4A2" class="hover-fillLight" d="M24 0c13.255 0 24 10.745 24 24S37.255 48 24 48 0 37.255 0 24 10.745 0 24 0z"/><path fill="#FFF" d="M39.558 30.977c-6.23 6.225-16.304 6.194-22.535-.03l13.975-13.962c-6.232-6.224-16.335-6.224-22.567 0-4.043 4.04-5.456 9.712-4.247 14.896l-.654.174a21.89 21.89 0 0 1-1.536-8.61c.284-11.806 10.003-21.35 21.823-21.446 6.15-.05 11.72 2.42 15.744 6.438 6.23 6.226 6.23 16.318 0 22.542z"/><path fill="#159570" class="hover-fillDark" d="M33.653 21.413c1.43 5.336-1.735 10.82-7.068 12.25-5.332 1.43-10.814-1.736-12.242-7.072-1.43-5.334 1.735-10.82 7.068-12.25 5.334-1.43 10.815 1.738 12.244 7.074z"/></svg>
-                  <div class='productLinkContent'>
-                    <h3 class="linkTitle">Subscriptions</h3>
-                    <p class="linkSub">The smart engine for recurring&nbsp;payments.</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="linkContainer item-connect"
-                  href=""
-                  data-analytics-action="connect"
-                  data-analytics-source="nav_dropdown"
-                >
-                  <svg viewbox="0 0 48 48"><path fill="#68D4F8" class="hover-fillLight" d="M48 24c0 13.255-10.745 24-24 24S0 37.255 0 24 10.745 0 24 0c1.363 0 2.698.12 4 .338V15h5v5h14.662c.218 1.302.338 2.637.338 4z"/><path fill="#FFF" d="M16.99 29.966L17 17l-5.55-.006a1.02 1.02 0 0 0-.725.3L2.65 25.446a1.55 1.55 0 0 0-.44 1.28c1.22 9.944 9.1 17.825 19.042 19.047.472.058.945-.104 1.28-.44l8.172-8.076c.192-.193.3-.453.3-.725L31 31l-12.985-.01a1.023 1.023 0 0 1-1.024-1.024z"/><path fill="#217AB7" class="hover-fillDark" d="M47.697 20.195L37.194 30.702a1.03 1.03 0 0 1-.726.3h-5.462V18.03c0-.567-.46-1.025-1.025-1.025H16.994V11.52c0-.274.108-.534.3-.726L27.783.3C38 1.916 46.07 9.98 47.698 20.194z"/></svg>
-                  <div class='productLinkContent'>
-                    <h3 class="linkTitle">Connect </h3>
-                    <p class="linkSub">Everything platforms need to get sellers&nbsp;paid.</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="linkGroup">
-            <ul class="productsGroupSecondary">
-              <li>
-                <a
-                  class="linkContainer item-sigma"
-                  href=''
-                  data-analytics-action="sigma"
-                  data-analytics-source="nav_dropdown"
-                >
-                  <svg viewBox="0 0 48 48"><path class="hover-fillLight" d="M24 48c-2.6 0-5-.3-7.2-1.1V35.2H4v2.1c-2.6-4-4-8.6-4-13.3C0 12.6 7.8 3.2 18.4.6V4h14.4V1.6C41.8 5.1 48 13.8 48 24c0 13.3-10.7 24-24 24z" fill="#beb0f4"/><path class="hover-fillDark" d="M45.6 24H32.8v17.6H17.6v-.2 5.8c-6.4-1.8-11.7-6.1-14.9-12 2.1-6.6 8-10.9 14.9-11.2V.8C19.7.3 21.9 0 24 0c3.4 0 6.7.6 9.6 1.9v8c0 6.1 4.5 10.9 10.2 11.7 1 .2 1.8 1.3 1.8 2.4z" fill="#7356b6"/><path d="M45.6 24c0 1.1-.8 2.1-1.8 2.2-5.8 1-10.2 5.8-10.2 11.7v5.3c-3 1.4-6.2 2.2-9.6 2.2-2.2 0-4.3-.3-6.4-1V40c0-7 5.8-13 12.5-13.8C31.2 26 32 25.1 32 24h13.6zM4 15.7C6.6 9.8 11.5 5.3 17.6 3.4V8c0 7 5.8 12.8 12.5 13.8 1.1.2 1.9 1.1 1.9 2.2H17.9C12 24 6.7 20.6 4 15.7z" fill="#FFF"/></svg>
-                  <div class='productLinkContent'>
-                    <h3 class="linkTitle">Sigma <span class='new-badge'>New</span></h3>
-                    <p class="linkSub">Your business data at your&nbsp;fingertips.</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="linkContainer item-relay"
-                  href=''
-                  data-analytics-action="relay"
-                  data-analytics-source="nav_dropdown"
-                >
-                  <svg viewbox="0 0 48 48"><path fill="#FFA27B" class="hover-fillLight" d="M24 0c13.255 0 24 10.745 24 24S37.255 48 24 48 0 37.255 0 24 10.745 0 24 0z"/><path fill="#C23D4B" class="hover-fillDark" d="M24 12.5c8.285 0 15 6.828 15 15.25S32.285 43 24 43c-8.284 0-15-6.828-15-15.25S15.716 12.5 24 12.5z"/><path fill="#FFF" d="M25 38.925v6.288a.787.787 0 0 1-.788.787h-.424a.787.787 0 0 1-.788-.788v-6.287c-3.668-.49-6.5-3.623-6.5-7.425a7.5 7.5 0 0 1 15 0c0 3.802-2.832 6.935-6.5 7.425z"/></svg>
-                  <div class='productLinkContent'>
-                    <h3 class="linkTitle">Relay</h3>
-                    <p class="linkSub">Sell your products in other mobile&nbsp;apps.</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="linkContainer item-atlas"
-                  href=""
-                  data-analytics-action="atlas"
-                  data-analytics-source="nav_dropdown"
-                >
-                  <svg viewbox="0 0 48 48"><path fill="#FCD669" class="hover-fillLight" d="M24 0c13.255 0 24 10.745 24 24S37.255 48 24 48 0 37.255 0 24 10.745 0 24 0z"/><path fill="#CE7C3A" class="hover-fillDark" d="M24.012 1.834c.366.005.73.196.92.575l16.825 33.72c.396.79-.314 1.685-1.175 1.48L24 33.626V1.834h.01z"/><path fill="#FFF" d="M24 1.834v31.794l-16.584 3.98A1.043 1.043 0 0 1 6.24 36.13L23.067 2.41c.195-.39.572-.58.947-.576H24z"/></svg>
-                  <div class='productLinkContent'>
-                    <h3 class="linkTitle">Atlas</h3>
-                    <p class="linkSub">The best way to start an internet&nbsp;business.</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="linkContainer item-radar"
-                  href=""
-                  data-analytics-action="radar"
-                  data-analytics-source="nav_dropdown"
-                >
-                  <svg viewbox="0 0 48 48"><path class="hover-fillLight" fill="#F6A4EB" d="M41.364 21.886h6.538c.06.697.098 1.4.098 2.114 0 13.255-10.745 24-24 24S0 37.255 0 24 10.745 0 24 0c6.833 0 12.993 2.86 17.364 7.442v14.444z"/><path fill="#FFF" d="M37.746 37.4a1.3 1.3 0 0 1 .92-.38c.72 0 1.303.444 1.303 1.163 0 .503-.353.982-.708 1.292-3.484 3.122-8.325 5.53-13.783 5.53-11.75 0-19.486-9.538-19.486-18.83 0-8.72 7.195-16.19 15.25-16.19s11.227 5.54 11.227 5.54L37.747 37.4z"/><path class="hover-fillDark" fill="#9251AC" d="M47.995 24zm0 0c0-.995-.807-1.974-1.802-1.974-1.15 0-1.8.94-1.8 1.83-.09 3.174-1.228 7.127-3.453 10.182-2.355 3.232-6.91 6.956-13.242 6.956-7.625 0-13.213-5.767-13.213-11.925 0-4.3 2.886-7.17 5.828-7.17 1.588 0 2.48.683 2.965 1.312.362.468 1.063.493 1.482.074L40.968 7.032A23.926 23.926 0 0 1 47.995 24z"/></svg>
-                  <div class='productLinkContent'>
-                    <h3 class="linkTitle">Radar</h3>
-                    <p class="linkSub">Modern tools to help beat&nbsp;fraud.</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <ul class="linkGroup linkList prodsubGroup">
-              <li>
-                <a
-                  class="linkContainer item-workswith"
-                  href=""
-                  data-analytics-action="works-with"
-                  data-analytics-source="nav_dropdown"
-                >
-                  <h3 class="linkTitle linkIcon"><svg width="17" height="17"><path class="hover-fillLight" fill="#87BBFD" d="M15.998 12.495a1.03 1.03 0 0 1-.595.908L8.93 16.395a1.018 1.018 0 0 1-.86 0l-6.473-2.992a1.03 1.03 0 0 1-.594-.908V4.51c.006-.2.07-.39.18-.55L8.5 7.338l7.32-3.38c.108.16.172.35.178.55v7.984z"/><path class="hover-fillDark" fill="#6772E5" d="M15.998 12.495a1.03 1.03 0 0 1-.595.908L8.93 16.395a1.026 1.026 0 0 1-.43.095V7.34l7.32-3.38c.11.16.173.35.18.55v7.984z"/><path class="hover-fillLight" fill="#87BBFD" d="M8.5 5C6.567 5 5 4.228 5 3.275v-1.15h.098c.36.768 1.742 1.34 3.402 1.34 1.66.002 3.043-.572 3.402-1.34H12v1.15C12 4.228 10.433 5 8.5 5z"/></svg>Works with Stripe</h3>
-                </a>
-              </li>
-          </ul>
-
-        </div>
-      </div>
 
       <div class="dropdownSection" data-dropdown="developers">
         <div class="dropdownContent">
@@ -461,7 +336,7 @@
 
 </header>
 <header class="page-header">
-  <section id="header-section">
+  <section id="header-section" class="header-section">
     <div class="container">
       <div class="row ">
           <div class="col-md-12 flex-md-first">
@@ -484,88 +359,76 @@
 
         </div>
 
-        <div class="col-md-6 ">
-          <img src="assets/images/screenshots/screenshot.png" class="screen-first" alt="XCDHR demo">
-        </div>
-
-
       </div>
     </div>
   </section>
 </header>
-  <!-- <header class="page-header">
-    <section id="header-section">
-      <div class="container">
-        <div class="row ">
-          <div class="col-md-6 flex-md-first">
-            <h1 class="medium-font left-text white-text italics CandItalics">Powerfull cloud HR software<br/> that puts you in control</h1>
-            <h4 class="light-font small-margin-top-down white-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-              <div class="e-input">
-                <div class="input-box">
-                  <input class="c-border" type="email" placeholder="Email">
-                  </input>
-                </div>
-                <div class="button-box">
-                  <span class="c-text"> Let's get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
-                </div>
-              </div>
-
-          </div>
-
-          <div class="col-md-6 ">
-            <img src="assets/images/screenshots/screenshot.png" class="screen-first" alt="XCDHR demo">
-          </div>
-
-
-        </div>
-      </div>
-    </section>
-  </header> -->
+<div class="curve-down" >
 </div>
-
+</div>
+<div class="col-md-6 col-md-offset-5 desk-img">
+  <p class="text-center">
+  <img src="assets/images/home/dots.png" class="dot-first text-center" alt="XCDHR demo">
+  </p>
+  <img src="assets/images/home/desktop.png" class="screen-first" alt="XCDHR demo">
+</div>
 
 <section class="partners" >
   <div class="h-more">
-  <p class="text-center ">
-    <button type="button" class="btn  btn-sm b-button">See More</button>
+  <p class="text-center">
+    <button type="button" class="btn  btn-sm b-button">See all customers</button>
   </p>
   </div>
   <div id="partners">
   <div class="owl-carousel">
   <div>
     <div class="text-center">
-      <img src="https://demo.proteusthemes.com/webmarket/wp-content/uploads/sites/5/2014/02/brands_04.gif" class="partners-logo">
+      <img src="assets/images/client/1.png" class="partners-logo">
     </div>
   </div>
   <div>
     <div class="text-center">
-      <img src="https://demo.proteusthemes.com/webmarket/wp-content/uploads/sites/5/2014/02/brands_04.gif" class="partners-logo">
+      <img src="assets/images/client/2.png" class="partners-logo">
     </div>
   </div>
   <div>
     <div class="text-center">
-      <img src="https://demo.proteusthemes.com/webmarket/wp-content/uploads/sites/5/2014/02/brands_04.gif" class="partners-logo">
+      <img src="assets/images/client/3.png" class="partners-logo">
     </div>
   </div>
   <div>
     <div class="text-center">
-      <img src="https://demo.proteusthemes.com/webmarket/wp-content/uploads/sites/5/2014/02/brands_04.gif" class="partners-logo">
+      <img src="assets/images/client/4.png" class="partners-logo">
     </div>
   </div>
   <div>
     <div class="text-center">
-      <img src="https://demo.proteusthemes.com/webmarket/wp-content/uploads/sites/5/2014/02/brands_04.gif" class="partners-logo">
+      <img src="assets/images/client/5.png" class="partners-logo">
     </div>
   </div>
   <div>
     <div class="text-center">
-      <img src="https://demo.proteusthemes.com/webmarket/wp-content/uploads/sites/5/2014/02/brands_04.gif" class="partners-logo">
+      <img src="assets/images/client/6.png" class="partners-logo">
     </div>
   </div>
   <div>
     <div class="text-center">
-      <img src="https://demo.proteusthemes.com/webmarket/wp-content/uploads/sites/5/2014/02/brands_04.gif" class="partners-logo">
+      <img src="assets/images/client/7.png" class="partners-logo">
+    </div>
+  </div>
+  <div>
+    <div class="text-center">
+      <img src="assets/images/client/8.png" class="partners-logo">
+    </div>
+  </div>
+  <div>
+    <div class="text-center">
+      <img src="assets/images/client/9.png" class="partners-logo">
+    </div>
+  </div>
+  <div>
+    <div class="text-center">
+      <img src="assets/images/client/10.png" class="partners-logo">
     </div>
   </div>
 </div>
@@ -581,6 +444,10 @@
         </h4>
 
       </div>
+      <div class="col-md-3">
+        <img class="img-responsive" src="assets/images/home/man.png" >
+      </div>
+      </div>
     </div>
   </div>
 </section>
@@ -589,16 +456,16 @@
 
 <section class="video-container promo-left">
   <div class="row ">
-    <div class="col-md-4">
-      <img src="https://demo.proteusthemes.com/webmarket/wp-content/uploads/sites/5/2014/02/brands_04.gif" class="illustraions" align="middle">
+    <div class="col-md-5 text-center">
+      <img src="assets/images/home/video_illustrations.png" class="illustraions illustration-video" align="middle">
     </div>
-    <div class="col-md-8 outer-flex">
+    <div class="col-md-7 outer-flex">
       <div class="inner-flex">
-      <h4 class="light-font small-margin-top-down white-text text-center">
+      <h2 class="light-font small-margin-top-down white-text text-center">
         See what XCD is all about
-      </h4>
+      </h2>
       <div class="video-button">
-        Play <span class="round-back"><i class="fa fa-play play-button" aria-hidden="true"></i></span> Video
+        Watch <span class="round-back"><i class="fa fa-play play-button" aria-hidden="true"></i></span> Video
       </div>
     </div>
     </div>
@@ -888,7 +755,7 @@
   <div class="container">
    <div class="row">
      <div class="col-md-6">
-        <img class="illustraions right" src="assets/images/misc/default.png" alt="Card image cap">
+        <img class="illustraions right" src="assets/images/home/subscribe.png" alt="Card image cap">
      </div>
      <div class="col-md-6">
        <h1 class="gray-title">Don't miss out on anything</h1>
@@ -959,7 +826,8 @@
 
     function init() {
         var mapOptions = {
-            zoom: 11,
+            zoom: 15,
+             draggable:false,
             center: new google.maps.LatLng(51.508742,-0.120850),
             styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}]
         };
