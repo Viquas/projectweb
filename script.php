@@ -4,8 +4,9 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
-
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script> -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script>
@@ -31,7 +32,7 @@ var myNavBar = {
     add : function() {
         if(this.flagAdd) {
             for(var i=0; i < this.elements.length; i++) {
-                document.getElementById(this.elements[i]).className = "globalNav navbar-fixed-top fixed-theme";
+                // document.getElementById(this.elements[i]).className = "globalNav navbar-fixed-top fixed-theme";
             }
             this.flagAdd = false;
         }
@@ -39,7 +40,7 @@ var myNavBar = {
 
     remove: function() {
         for(var i=0; i < this.elements.length; i++) {
-            document.getElementById(this.elements[i]).className = "globalNav";
+            // document.getElementById(this.elements[i]).className = "globalNav";
         }
         this.flagAdd = true;
     }

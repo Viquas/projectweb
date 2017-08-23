@@ -1,0 +1,62 @@
+
+.modal-dialog {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal.fade .modal-dialog {
+  transform: translate(0, -100%);
+}
+
+.modal.in .modal-dialog {
+  transform: translate(0, 0);
+}
+.modal{
+  padding:none;
+  /*margin-top:15%;*/
+  box-shadow: 0 0 0px rgba(0,0,0,0.20);
+}
+.modal-body{
+  padding: 0px;
+  background-color: transparent;
+
+}
+.modal-content , .modal-body {
+  background-color: transparent;
+}
+.team-container{
+  padding: 20px;
+  background-color: white;
+  height: 300px;
+}
+.modal-content{
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+    border:0px;
+}
+
+/*Js controls styles*/
+.controls{
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;
+}
+.next {
+    font-size: 20px;
+    float:right;
+    text-align:right;
+}
+.previous{
+  font-size: 20px;
+  float:left;
+  text-align:left;
+  margin-right: -300px;
+}
